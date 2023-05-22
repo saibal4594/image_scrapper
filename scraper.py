@@ -9,7 +9,7 @@ from selenium.webdriver import Chrome
 
 
 
-
+####added comments
 
 def fetch_image_urls(query: str, max_links_to_fetch: int, wd: webdriver, sleep_between_interactions: int = 1):
     def scroll_to_end(wd):
